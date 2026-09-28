@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:8000/api';
+const API_BASE_URL = 'https://sih-project-backend-4ya2.onrender.com/api';
 
 export const extractProfile = async (text: string, language: string) => {
   const response = await fetch(`${API_BASE_URL}/conversation/extract-profile`, {
